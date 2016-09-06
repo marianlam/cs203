@@ -1,26 +1,26 @@
 /*
  * simple program that prints out a greeting along with the user's name.
  */
-package greeter;
+package mygreeter;
 
 /**
  *
  * @author malam
  */
-public class Greeter {
+public class mygreeter {
 
     // declare private String variable name
     private String name;
     
     // constructor that initializes instance variable name
-    public Greeter(String name) {
+    public mygreeter(String name) {
         this.name = name;
     }
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Greeter newGreeter = new Greeter("Marian");
+        mygreeter newGreeter = new mygreeter("Marian");
         sayHello(newGreeter.name);
     }
     
